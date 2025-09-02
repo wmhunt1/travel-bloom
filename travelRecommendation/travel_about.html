@@ -1,22 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>About Us</title>
-  <link rel="stylesheet" href=".travel_recommendation.css/">
-</head>
-<body>
-    <nav><h1>Travel Bloom</h1>
-        <ul>
-          <li><a href="./travel_recommendation.html" id="home">Home </a></li>
-          <li><a href="./travel_about.html" id="about">About Us </a></li>
-          <li><a href="./travel_contact" id="contact">Contact Us </a></li>
-          <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
-          <li><button id='btnSearch'>Search</button>
-          </li>
-        
-        </ul>
-        </nav>
-<script src="./travel_recommendation.js"></script>
-</body>
-</html>
+<!DOCTYPE html >
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <title>About Us</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
+        </head>
+        <body>
+          <nav>
+            <h1>Travel Bloom</h1>
+            <ul>
+              <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+              <li><a href="./travel_about.html" id="about">About Us </a></li>
+              <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+            </ul>
+          </nav>
+          <main style="background-image: url('travel-image.png'); background-size: cover; background-position: center; height: auto; padding: 20px;">
+            <h2 style="color: white; text-align: center; text-shadow: 2px 2px 4px #000000;">About Us</h2>
+            <article style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 10px; margin-bottom: 20px;">
+              <p style="color: white; text-align: center;">We love people and we love places</p>
+            </article>
+            <section>
+              <h2 style="color: white; text-align: center; text-shadow: 2px 2px 4px #000000;">Meet our Team</h2>
+              <div class="team-container">
+                <div class="team-member">
+                  <h3>Macro Polo</h3>
+                  <p>President</p>
+                </div>
+                <div class="team-member">
+                  <h3>Louis Clark</h3>
+                  <p>Vice President of Travel</p>
+                </div>
+                <div class="team-member">
+                  <h3>Francis Drake</h3>
+                  <p>Vice President of Culture</p>
+                </div>
+              </div>
+            </section>
+          </main>
+          <script src="./travel_recommendation.js"></script>
+        </body>
+      </html>

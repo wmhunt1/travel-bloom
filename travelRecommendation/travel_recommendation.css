@@ -1,0 +1,35 @@
+            nav {
+              display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333; 
+            color: white;
+            padding: 10px 20px;
+        }
+
+            nav ul {
+              display: flex; 
+            list-style: none; 
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+            nav li {
+              margin-left: 20px;
+        }
+            nav a {
+              color: white;
+            text-decoration: none; 
+            font-weight: bold;
+            transition: color 0.3s ease;/
+        }
+            nav a:hover {
+              color: #ddd;
+        }
+            .main-content {
+              background-color: rgba(0, 0, 0, 0.4); /* Black overlay with 40% opacity */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+  }

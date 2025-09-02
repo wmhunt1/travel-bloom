@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Travel Bloom</title>
-  <link rel="stylesheet" href=".travel_recommendation.css/">
-</head>
-<body>
-    <nav><h1>Travel Bloom</h1>
-        <ul>
-          <li><a href="./travel_recommendation.html" id="home">Home </a></li>
-          <li><a href="./travel_about.html" id="about">About Us </a></li>
-          <li><a href="./travel_contact" id="contact">Contact Us </a></li>
-          <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
-          <li><button id='btnSearch'>Search</button>
-          </li>
-        
-        </ul>
-        </nav>
-<script src="./travel_recommendation.js"></script>
-</body>
-</html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <title>Travel Bloom</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
+        </head>
+        <body>
+          <nav><h1>Travel Bloom</h1>
+            <ul>
+              <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+              <li><a href="./travel_about.html" id="about">About Us </a></li>
+              <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+              <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
+              <li><button id='btnSearch'>Search</button></li>
+              <li><button id='btnClear'>Clear</button></li>
+            </ul>
+          </nav>
+          <main style="background-image: url('travel-image.png'); background-size: cover; background-position: center; height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div class="main-content">
+              <h2 style="color: white; text-align: center; text-shadow: 2px 2px 4px #000000;">Travel the World</h2>
+              <p style="color: white; text-align: center;">Explore new places and experience new cultures</p>
+            </div>
+          </main>
+          <script src="./travel_recommendation.js"></script>
+        </body>
+      </html>
